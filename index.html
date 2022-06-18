@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table class="table align-middle bg-transparent">
+        <br/><br/>
+        <thead>
+          <h1 class="top">CAR LIST</h1>
+        </thead>
+        <br>
+        <tbody>
+          <th class="first fs-3 text-light">CHOOSE YOUR NEXT VEHICLE</th>
+          <th class="bg-dark text-light fs-3">VEHICLE<h5>(YEAR)</h5>
+          </th>
+          <th class="bg-secondary text-light fs-3">SIZE<h5>(OTHER)</h5>
+          </th>
+          <th class="bg-dark text-light fs-3">DOORS<h5>(EXTRAS)</h5>
+          </th>
+          </tr>
+          <tr>
+            <td class="text text-light">
+            <img id="car" src="https://worthly.com/wp-content/uploads/2015/02/Audi-Quattro.png" height='80px' width="150px">     Audi Quattro</td>
+            
+            <td class="text-light">1980</td>
+            <td class="text-light">Mid-Size</td>
+            <td class="text-light">2-Door Coupe</td>
+          </tr>
+          <tr>
+            <td class="text text-light"> 
+            <img id="car" src='https://worthly.com/wp-content/uploads/2015/02/porsche-911.png' height='80px' width="150px">     Porshe 911 Turbo</td>
+           
+            <td class="text-light">1963</td>
+            <td class="text-light">Sports Car</td>
+            <td class="text-light">2-Door</td>
+          </tr>
+          <tr>
+            <td class="text text-light">
+            <img id="car" src="https://worthly.com/wp-content/uploads/2015/02/bmw-m3.png" height='80px' width="150px">     BMW E30 M3</td>
+            
+            <td class="text-light">1986</td>
+            <td class="text-light">Sporty</td>
+            <td class="text-light">2-Door</td>
+          </tr>
+          <tr>
+            <td class="text text-light"> <img id="car" src="https://worthly.com/wp-content/uploads/2015/02/Ferrari-f40.png" height='80px' width="150px">     Ferrari F40</td>
+           
+            <td class="text-light">1987 (successor to the 288 GTO)</td>
+            <td class="text-light">Twin-Turbocharged</td>
+            <td class="text-light">2-Door <br/> Most expensive ever made! <br/> 2.9 liter V8</td>
+          </tr>
+          <tr>
+            <td class="text text-light"> <img id="car" src="https://worthly.com/wp-content/uploads/2015/02/mercedes-w126.png" height='80px' width="150px">     Mercedes-Benz W126</td>
+           
+            <td class="text-light">1979</td>
+            <td class="text-light">W126 was the second vehicle ever made by Mercedes-Benz </td>
+            <td class="text-light">4-Door</td>
+          </tr>
+       <tr>
+            <td class="text text-light">  
+            <img id="car" src="https://worthly.com/wp-content/uploads/2015/02/Rolls-Royce-Silver-Spirit.png" height='80px' width="150px">     Rolls-Royce Silver Spirit</td>
+          
+            <td class="text-light">1980</td>
+            <td class="text-light">Flying Spur of the Silver Dawn </td>
+            <td class="text-light">4-Door <br/> 6.75 liter V8</td>
+          </tr>
+       <tr>
+            <td class="text text-light">
+            <img id="car" src="https://worthly.com/wp-content/uploads/2015/02/lamborghini-countach-1.jpg" height='80px' width="150px">     Lamborghini Countach</td>
+            
+            <td class="text-light">1974</td>
+            <td class="text-light">Supercar (Sporty)</td>
+            <td class="text-light">2-Door <br/> v12</td>
+          </tr>
+       <tr>
+            <td class="text text-light"> 
+            <img id="car" src="https://worthly.com/wp-content/uploads/2015/02/Aston-Martin-V8-Vantage.png" height='80px' width="150px">     Aston Martin V8 Vantage</td>
+           
+            <td class="text-light">1969</td>
+            <td class="text-light">Used in a Bond Flick! </td>
+            <td class="text-light">2-Door <br/> 5.3 liter V8</td>
+          </tr>
+       <tr>
+            <td class="text text-light"> 
+            <img id="car" src="https://worthly.com/wp-content/uploads/2015/02/bmw-m5.png" height='80px' width="150px">     BMW E28 M5</td>
+           
+            <td class="text-light">1985</td>
+            <td class="text-light">M5 was the first M5 ever produced by BMW </td>
+            <td class="text-light">4-Door</td>
+          </tr>
+       <tr>
+            <td class="text text-light"> 
+            <img id="car" src="https://worthly.com/wp-content/uploads/2015/02/ferrari-testarossa.png" height='80px' width="150px">     Ferrari Testarossa</td>
+           
+            <td class="text-light">1984</td>
+            <td class="text-light">Sports Car <br/>One of the best luxury cars of the 1980's </td>
+            <td class="text-light">2-Door</td>
+          </tr>
+      
+        </tbody>
+        <tfoot></tfoot>
+      </table>
+      
+      <div class="results">
+          
+          <div id="car-result" class="result">
+          <h><b></b></h>
+          </div>
+      
+      </div>
+      
+      
+      
+         <div class="car">
+      <!--             <img id="car"
+                      src="https://worthly.com/wp-content/uploads/2015/02/Audi-Quattro.png"> -->
+                  <p id="answer" class="answer hide"></p>
+      
+                  <div class="Circle">
+      
+      
+      
+         <div class="button">
+                  <input class="place text-dark" type="text" name="text" placeholder="click 'Choose for me!' to find your next car!" disabled /> <br/> <br/>
+                  <button class="choose bg-secondary" id="questionButton">Choose for me! </button>
+              </div>
+          
+           <script type="text/javascript">
+                  //Select the element on the page to interact with!
+      
+                  let button = document.querySelector("button");
+                  let anwser = document.querySelector("#answer")
+      
+                  // Add a click event to the button
+                  button.addEventListener("click", function () {
+      
+                      //Create Array
+                      // Adding my Answers 
+                      const answers = [
+                        "<img src='https://worthly.com/wp-content/uploads/2015/02/Audi-Quattro.png'>",
+                        "<img src='https://worthly.com/wp-content/uploads/2015/02/porsche-911.png'>",
+                        "<img src='https://worthly.com/wp-content/uploads/2015/02/bmw-m3.png'>",
+                        "<img src='https://worthly.com/wp-content/uploads/2015/02/Ferrari-f40.png'>",
+                        "<img src='https://worthly.com/wp-content/uploads/2015/02/mercedes-w126.png'>",
+                        "<img src='https://worthly.com/wp-content/uploads/2015/02/Rolls-Royce-Silver-Spirit.png'>",
+                        "<img src='https://worthly.com/wp-content/uploads/2015/02/lamborghini-countach-1.jpg'>",
+                        "<img src='https://worthly.com/wp-content/uploads/2015/02/Aston-Martin-V8-Vantage.png'>",
+                        "<img src='https://worthly.com/wp-content/uploads/2015/02/bmw-m5.png'>",
+                        "<img src='https://worthly.com/wp-content/uploads/2015/02/ferrari-testarossa.png'>"
+                      ];
+      
+                      //Generate random number once 
+      
+      
+      
+      
+                      //Generate a random number 
+      
+                      const random_Number = Math.random() * answers.length;
+      
+      
+      
+                      //Turn Random number using the key above.
+                      const randomNumberFloor = Math.floor(random_Number)
+      
+      
+      
+                      //alert(answers[randomNumberFloor]);
+                      anwser.innerHTML = answers[randomNumberFloor];
+      
+                      //Display the answer 
+                      answer.classList.remove("hide");
+                      setTimeout(function () {
+                          answer.classList.add("hide")
+                      }, 8000)
+      
+      
+      
+                  });
+              </script>
+      
+
+
+</body>
+</html>
